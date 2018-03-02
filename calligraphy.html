@@ -1,0 +1,110 @@
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <title>Sarah Berger</title>
+  <meta name="Title" content="Sarah Berger">
+  <meta name="Description" content="Sarah Berger's Personal Site">
+  <meta name="Keywords" content="sarah, sarah berger, berger, Sarah Berger, Cornell, Workday">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<style>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", "Helvetica Neue", "Helvetica", sans-serif;
+  color: #171A21;
+  border-top: 8px solid #92BCEA;
+  border-bottom: 8px solid #92BCEA; 
+  margin:0 auto;
+  width: 60%;
+}
+
+.gallery {
+  width: 640px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.gallery > div > img {
+  display: block;
+  width: 200px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.7,1.7);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
+
+section {
+  margin: 40px 0;
+  font-size: 1.15em;
+  font-family: "Montserrat", "Helvetica Neue", "Helvetica", sans-serif;
+  text-align: center;
+}
+
+header{
+padding:20px;
+}
+</style>
+
+
+</head>
+<body>
+
+<header > 
+  <a href="index.html"> < Back </a>
+</header>
+
+<section alt="gallery" roles="article">
+<h1>Pages From My Notebook</h1>
+
+<div class="gallery cf">
+  <div>
+    <img src="assets/seven.jpg" />
+  </div>
+  <div>
+    <img src="assets/five.jpg" />
+  </div>
+  <div>
+    <img src="assets/four.jpg" />
+  </div>
+  <div>
+    <img src="assets/three.jpg" />
+  </div>
+  <div>
+    <img src="assets/two.jpg" />
+  </div>
+  <div>
+    <img src="assets/one.jpg" />
+  </div>
+</div>
+
+</section>
+</body>
+</html>
