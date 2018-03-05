@@ -21,14 +21,27 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="icon" href=favicon.ico>
 	<style>
-		body {
-			width: 60%;
+		
+		
+    	.column-left{ 
+    		float: left; width: 20%; 
+    	}
+		.column-right{ 
+			float: right; width: 20%; 
+		}
+		.column-center{ 
+			display: inline-block; 
+			width: 60%; 
+		}
+
+
+		#content {
 			font-family: "Montserrat", "Helvetica Neue", "Helvetica", sans-serif;
 			margin:0 auto;
 			font-size: 1.15em;
 			color: #413e3e;
 			border-top: 8px solid #92BCEA;
-			border-bottom: 8px solid #92BCEA; 
+			float:left;
 		}
 
 		header{
@@ -52,44 +65,61 @@
 			margin:20px auto;
 			text-align: right;
 		}
-	
+
+		body{
+			border-bottom: 8px solid #92BCEA; 
+		}
 		
 		
 	</style>
 </head>
 
 <body>
-<nav id="navbar" role="contentinfo">
+<div class="row">
+  <div class="column-left">
+  <div class="images">
+	<img src="assets/leftimage.jpg" alt="large image of a doodle I drew" width="220" height="500">
+  </div></div>
+  <div class="column-center">
+  	<div id="content">
+	<nav id="navbar" role="contentinfo">
  	<a href="mailto:sarahreberger@gmail.com"> Email </a>
  	&#183
  	<a href="https://www.linkedin.com/in/bergersarah"> LinkedIn </a>
  	&#183
  	<a href="WORK IN PROGRESS assets/Sarah_Berger_Resume_2018.pdf"> Resume </a>
  	&#183
- 	<a href="scribbles.html"> Scribbles </a>
- </nav>
-<header role="banner">
-<h1 style="font-variant:small;margin-bottom:-5px;font-size:1.7em">Hi, I'm Sarah Berger</h1>
-</header>
+ 	<a class="scribbles" href="scribbles.html"> <img src="assets/wordscribbles.jpg" alt="the word scribbles in hand lettering" width="100" height="35"> </a>
+ 	</nav>
+	<header role="banner">
+	<h1 style="font-variant:small;margin-bottom:-5px;font-size:1.7em">Hi, I'm Sarah Berger</h1>
+	</header>
 
-<section id="one" role="article">
-	<p>I live in San Francisco and work as a developer at <a target="_blank" href= "https://www.workday.com/en-us/homepage.html"> Workday</a>, a software company working on ways to improve corporate HR and Finance. I am part of a team that builds features around employee performance, feedback, and goal-setting. Previously, I was a student at <a target="_blank" href="https://www.cornell.edu/">Cornell</a>. 
-</p></section>
+	<section id="one" role="article">
+		<p>I live in San Francisco and work as a developer at <a target="_blank" href= "https://www.workday.com/en-us/homepage.html"> Workday</a>, a software company, working on ways to improve corporate HR and Finance. I am part of a team that builds features around employee performance, feedback, and goal-setting. Previously, I was a student at <a target="_blank" href="https://www.cornell.edu/">Cornell</a>. 
+		</p>
+	</section>
 
  <!-- <section id="two" role="article">
  	<p> Previously, I have interned at <a target="_blank" href="https://www.credit-suisse.com/international/en.html">Credit Suisse</a>, <a target="_blank" href="http://www.aon.com/human-capital-consulting/default.jsp">Aon-Hewitt</a>, and <a target="_blank" href="https://www.starwoodhotels.com/preferredguest/about/index.html?categoryId=brand.ourBrands&gclid=CKmd0fak1NkCFQS7fgodJDcJIA&gclsrc=ds">Starwood</a>. I've worked in admissions at <a target="_blank" href="https://www.cornell.edu/">Cornell</a>, been a math and reading tutor in the Bay Area.</p>
  </section> -->
 
- <section id="three" role="article">
- 	<p> I spend most of my free time learning new things, practicing skills I've been developing, or spending time with wonderful people. I can often be found swimming, speaking Hebrew, and working on <a target="_blank" href="https://www.instagram.com/eatmeskincare/">EatMe</a> - a small business I founded in my spare time. I also  love rehabilitating neglected house / office plants.</p>
- </section>
+ 	<section id="three" role="article">
+ 		<p> I spend most of my free time learning new things, practicing skills I've been developing, or spending time with wonderful people. I can often be found swimming, speaking Hebrew, and working on <a target="_blank" href="https://www.instagram.com/eatmeskincare/">EatMe</a> - a small business I founded in my spare time. I also  love rehabilitating neglected house / office plants.
+ 		</p>
+ 	</section>
+</div>
+  </div>
+  <div class="column-right">
+  	<div class="images">
+	<img src="assets/leftimage.jpg" alt="large image of a doodle I drew" width="220" height="500">
+  	</div>
+  </div>
+</div>
 
 
 
-<script type="text/javascript">
-	
 
-</script>
 </body>
 
 </html>
