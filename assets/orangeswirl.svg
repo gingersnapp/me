@@ -1,9 +1,9 @@
-<svg width="255" height="231" viewBox="0 0 255 231" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="81" height="76" viewBox="0 0 81 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>Frame</title>
 <desc>Created using Figma</desc>
 <g id="Canvas" transform="translate(16636 2523)">
 <clipPath id="clip-0" clip-rule="evenodd">
-<path d="M -16636 -2523L -16381 -2523L -16381 -2292L -16636 -2292L -16636 -2523Z" fill="#FFFFFF"/>
+<path d="M -16636 -2523L -16555 -2523L -16555 -2447L -16636 -2447L -16636 -2523Z" fill="#FFFFFF"/>
 </clipPath>
 <g id="Frame" clip-path="url(#clip-0)">
 <g id="Vector 5">
