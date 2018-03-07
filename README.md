@@ -1,1 +1,1 @@
-# Check me out
+Check me out
